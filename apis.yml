@@ -1,8 +1,27 @@
 aid: tandemai
-name: tandemai
-description: tandemai is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: TandemAI
+description: TandemAI is an integrated drug discovery contract research organization (CRO)
+  that combines proprietary AI and physics-based computational methods with in-house
+  high-performance computing and extensive wet-lab operations to accelerate pharmaceutical
+  research. Its cloud-enabled, data-centric, browser-based platform, TandemViz, spans
+  hit finding, hit-to-lead and lead optimization, digital assays and workflows, medicinal
+  chemistry and synthesis, biological assays, and a peptide platform. TandemAI is offered
+  as an FTE-based service model that bundles wet-lab services with complimentary access
+  to its AI and computational tools, or as a stand-alone SaaS software license. The
+  company merged with Perpetual Medicines and is backed by Qiming Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/tandemai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://tandemai.com/wp-content/uploads/2024/02/mobile-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Drug Discovery
+- Artificial Intelligence
+- Computational Chemistry
+- Biotechnology
+- Pharmaceuticals
+- Life Sciences
+- Contract Research Organization
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tandemai-domain-security.yml
 - type: Website
   url: https://tandemai.com
+- type: Blog
+  url: https://tandemai.com/blog/
+- type: Support
+  url: https://tandemai.com/contact/
+- type: Login
+  url: https://fep.tandemviz.com/login
+- type: TermsOfService
+  url: https://tandemai.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://tandemai.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
