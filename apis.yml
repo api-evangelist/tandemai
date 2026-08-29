@@ -10,6 +10,17 @@ description: TandemAI is an integrated drug discovery contract research organiza
   to its AI and computational tools, or as a stand-alone SaaS software license. The
   company merged with Perpetual Medicines and is backed by Qiming Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/tandemai/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
